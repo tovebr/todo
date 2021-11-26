@@ -146,6 +146,7 @@ function editTodo(element) {
   // deletes obj in browser and in array
   deleteUICard(id);
   allTodos[currTodoArray].splice(index, 1);
+  localStorage.setItem("allTodos", JSON.stringify(allTodos));
 }
 
 // deletes UI representation of obj
