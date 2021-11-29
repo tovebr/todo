@@ -59,7 +59,7 @@ todoSubmitInput.addEventListener("click", (e) => {
       new Todo(
         id,
         todoHeaderInput.value,
-        todoDeadlineInput.value,
+        todoDeadlineInput.value || "---",
         creationDateShort
       )
     );

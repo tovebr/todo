@@ -85,6 +85,7 @@ label {
   box-shadow: 5px 5px 5px #333;
   transform: translate(0, 0);
   transition: all 0.2s;
+  background-color: aliceblue;
 }
 
 #display-todos,
@@ -109,7 +110,7 @@ label {
 }
 .card-header {
   text-align: center;
-  background-color: beige;
+  background-color: rgb(237, 244, 250);
   border-radius: 10px 10px 0 0;
   padding: 0.7rem;
   min-height: 50px;
